@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <!-- Added jquery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added Bootstrap Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<header> 
+    <div class = "container">
+        <h1>Quiz ME!</h1> 
+        <hr>
+    </div>  
+</header>
+<!--This is the timer on the page-->
+<div class = "container">  
+    <div class ="row">
+        <div class = "col-md-12">
+            <h2 id = "timer"> TIMER: 5 SECONDS PER QUESTION</h2>
+        </div>
+    </div>
+<!--This is the quiz on the page-->
+    <div class = "row">
+        <div class = "col-md-12">
+        <section id ="q"></section>
+        <section id ="a"></section>
+        <hr>
+        <!--This is the button to start quiz on the page-->
+        <button type="button" id="button" class="btn btn-success">Start</button>
+        </div>
+    </div>
+</div>
+
+<footer> 
+    <!--This is the note to the user to start-->
+    <div class = "container">
+        <p>  Click on Start to begin the quiz. You have 5 seconds to answer each question. Enjoy !</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

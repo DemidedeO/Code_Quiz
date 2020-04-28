@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    background-color: mediumspringgreen;
+    color: rgb(96, 5, 214);
+
+}
+
+footer {
+    text-align: center;
+    background-color: beige;
+    color: red;
+    font-size: 20px;
+    margin-top: 70px;
+}
